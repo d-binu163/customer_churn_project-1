@@ -59,7 +59,7 @@ To analyze telecom customer behavior and develop a model that can predict whethe
 
 ## Modeling Approach
 
-- Baseline model: Logistic Regression
+- Baseline model: Logistic Regression, DecisionTrees, KNearestNeighbours, Logistic using SMOTE
 
 - Preprocessing:
 
@@ -83,6 +83,8 @@ To analyze telecom customer behavior and develop a model that can predict whethe
 - Logistic regression identified Contract type, OnlineSecurity, and TechSupport as key predictors of churn.
 
 - Customers with month-to-month contracts and no added services were more likely to churn.
+
+- Although Logistic is simple and interpretable, its performance may be limited for more complex relationships in the data. 
 
 
 ## License
